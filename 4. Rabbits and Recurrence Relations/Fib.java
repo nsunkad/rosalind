@@ -22,7 +22,7 @@ class Main {
     double temp=0.0;
     double totalRabbits = 1.0;
     double numAdults = 0.0;
-    for(int i=1; i<=n;i++)
+    for(int i=1; i<n;i++)
     {
       temp = numAdults;
       numAdults=totalRabbits;
