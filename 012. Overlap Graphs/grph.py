@@ -39,7 +39,7 @@ with open('input.txt', 'r') as input_file:
     fasta_ids.append(item.split('*')[0])
     dnastrs.append(item.split('*')[1])
 
-# set desired overlap length
+# desired overlap length
 OVERLAP_LENGTH = 3
 
 # construct adjacency list
@@ -56,4 +56,3 @@ for str1 in dnastrs:
 with open('output.txt', 'w') as output_file:
   for item in adjacency_list:
     output_file.write(item.head.val + ' ' + item.head.next.val + '\n')
-  
