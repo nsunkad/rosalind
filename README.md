@@ -1,6 +1,6 @@
 # rosalind
-My solutions to Rosalind's [Bioinformatics Stronghold problems](http://rosalind.info/problems/list-view/)!
+Rosalind [bioinformatics stronghold](http://rosalind.info/problems/list-view/) solves
 
-The first six programs were written in Java in 2020
+Note that 001 - 006 are old solves (from 2020) written in Java. Newer solves are written in Python
 
-Every subsequent program will be written in Python in 2022 or later
+[Visit my Rosalind profile!](https://rosalind.info/users/nsunkad/)
